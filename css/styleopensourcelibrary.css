@@ -1,0 +1,154 @@
+/* Container untuk sejajarkan tiga elemen materi */
+.materi-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Gaya untuk setiap elemen materi */
+.materi {
+  text-align: center;
+  color: #7D111D;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.materi-content a {
+  color: #7D111D;
+  text-decoration: underline;
+  font-size: 24px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.materi img {
+  width: 200px;
+  height: auto;
+}
+
+/* Gaya kotak dengan pinggiran tumpul */
+.rounded-boxopenlirary {
+    padding: 15px;
+    margin: 0 180px;
+    background-color: #FFE6EA;
+    color: #000000;
+    font-family: Bree serif;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: justify;
+    border-radius: 10px; /* Mengatur radius untuk membuat pinggiran tumpul */
+  }
+  
+  /* Gaya judul dengan margin di sebelah kiri */
+  .section-title {
+    margin-left: 190px;
+    margin-top: 90px;
+    font-family: Bree serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  /* Gaya gambar */
+  .custom-image {
+    display: block;
+    max-width: 73%;
+    margin: 0 180px;
+    border-radius: 10px;
+  }
+  
+  /* Gaya kotak dengan pinggiran tumpul */
+  .round-box-gallery {
+    padding: 15px;
+    margin: 0 150px;
+    background-color: #FFE6EA;
+    border-radius: 10px; /* Mengatur radius untuk membuat pinggiran tumpul */
+  }
+  
+  /* Gaya judul untuk jenis */
+  .section-title-jenis {
+    margin-left: 180px;
+    margin-top: 90px;
+    margin-bottom: -10px;
+    font-family: Bree serif;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  /* Gaya container */
+  .container {
+    display: flex; /* Menggunakan Flexbox untuk menempatkan kolom dalam satu baris */
+  }
+  
+  /* Gaya kolom */
+  .column {
+    padding: 15px;
+    font-family: Bree serif;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px; /* Memberikan jarak antar kolom secara horizontal */
+  }
+  
+  /* Gaya teks dengan margin vertikal */
+  .text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /*style css open source stop disini*/
+
+  .body {
+    margin: 0;
+    padding: 0;
+}
+
+.title-infografis h2 {
+    /* Add font-family for Bree Serif */
+    font-family: Bree Serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.grafis-btn {
+    background-color:#FFE6EA ;
+    color: black;
+    font-weight: 500;
+    font-family: Bree Serif;
+}
+
+/* Section Layanan */
+.img-btn {
+    width: 100px;
+    font-weight: 500;
+    font-family: serif;
+}
+
+
+/* Section Lokasi */
+.rounded-lokasi {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    align-items: start;
+}
+
+
+
+.rounded-lokasi h2 {
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.bg-lokasi {
+    background-color:#FFE6EA ;
+    color: black;
+    margin-left: 60px ;
+    margin-right: 60px;
+}
+
